@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>luxstay-project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <div class="app">
+        <div class="container__header">
+            <div class="header">
+                
+                <div class="heading-left">
+                    <a href="" class="heading__svg-image-link">
+                        <div class="heading__svg-image">
+                            <svg version="1.1" viewBox="0 0 50 50" class="heading__svg-image-file" style="width: 50px; height: 50px;">
+                                <path pid="0" d="M25.093 0c13.781.06 24.94 11.317 24.882 25.106C49.917 38.894 38.663 50.058 24.88 50 11.1 49.942-.059 38.683.001 24.894.057 11.106 11.31-.058 25.092 0zm11.801 31.9L14.398 16.053c.241-.26.48-.518.74-.777 2.7-2.687 5.971-4.031 9.775-4.015 3.804.015 7.064 1.388 9.741 4.098.238.241.476.482.694.743l-5.951 4.133 2.381 1.688 5.153-3.576v.02L39.33 16.7c-.692-1.203-1.584-2.325-2.616-3.39-3.231-3.292-7.167-4.947-11.788-4.967-4.6-.019-8.53 1.603-11.809 4.867a17.806 17.806 0 00-2.682 3.408l1.429 1.004 23.429 16.51c-.24.26-.48.518-.74.777-2.7 2.687-5.971 4.011-9.775 3.996-3.803-.016-7.063-1.37-9.74-4.08-.258-.26-.496-.521-.734-.782l6.111-4.251-.139-.181-2.183-1.528-5.373 3.735v-.021l-2.377 1.65a17.824 17.824 0 002.654 3.43c3.253 3.291 7.169 4.946 11.769 4.965 4.62.021 8.549-1.602 11.83-4.866 1.06-1.075 1.96-2.21 2.682-3.406l-2.383-1.67z"></path>
+                            </svg>
+                        </div>
+                    </a>
+                    <div class="heading__input">
+                        <icon class="ti-search heading__input-search-icon"></icon>
+                        <input type="text" placeholder="Tìm Kiếm" class="heading__input-select">
+                        <ul id="heading__calendar-guest">
+                            <li><icon class="ti-calendar calendar-guest-icon"></icon>Ngày
+                                <div class="heading__calendar-book">
+                                    <div class="heading__calendar-book-left">
+                                        <div class="calendar-book-left__heading">
+                                            <div class="calendar-book-left__heading-icon"> <icon class="ti-arrow-left calendar-book-left__heading-icon-arrow"></icon> </div>
+                                            <div class="calendar-book-left__heading-times">
+                                                <h3 class="calendar-book-left__heading-month">February</h3>
+                                                <h3 class="calendar-book-left__heading-year">2022</h3>
+                                            </div>
+                                        </div>
+                                        <div class="calendar-book-left__body">
+                                            <h3 class="calendar-book-left__body-day">Mon</h3>
+                                            <h3 class="calendar-book-left__body-day">Tue</h3>
+                                            <h3 class="calendar-book-left__body-day">Wed</h3>
+                                            <h3 class="calendar-book-left__body-day">Thu</h3>
+                                            <h3 class="calendar-book-left__body-day">Fri</h3>
+                                            <h3 class="calendar-book-left__body-day">Sat</h3>
+                                            <h3 class="calendar-book-left__body-day ">Sun</h3>
+                                        </div>
+                                        <div class="calendar-book-left__body-1">
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--deactive"></h3>
+                                            <h3 class="calendar-book-left__body-day-1">1</h3>
+                                            <h3 class="calendar-book-left__body-day-1">2</h3>
+                                            <h3 class="calendar-book-left__body-day-1">3</h3>
+                                            <h3 class="calendar-book-left__body-day-1">4</h3>
+                                            <h3 class="calendar-book-left__body-day-1">5</h3>
+                                            <h3 class="calendar-book-left__body-day-1">6</h3>
+                                            <h3 class="calendar-book-left__body-day-1">7</h3>
+                                            <h3 class="calendar-book-left__body-day-1">8</h3>
+                                            <h3 class="calendar-book-left__body-day-1">9</h3>
+                                            <h3 class="calendar-book-left__body-day-1">10</h3>
+                                            <h3 class="calendar-book-left__body-day-1">11</h3>
+                                            <h3 class="calendar-book-left__body-day-1">12</h3>
+                                            <h3 class="calendar-book-left__body-day-1">13</h3>
+                                            <h3 class="calendar-book-left__body-day-1">14</h3>
+                                            <h3 class="calendar-book-left__body-day-1">15</h3>
+                                            <h3 class="calendar-book-left__body-day-1">16</h3>
+                                            <h3 class="calendar-book-left__body-day-1">17</h3>
+                                            <h3 class="calendar-book-left__body-day-1">18</h3>
+                                            <h3 class="calendar-book-left__body-day-1">19</h3>
+                                            <h3 class="calendar-book-left__body-day-1">20</h3>
+                                            <h3 class="calendar-book-left__body-day-1">21</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">22</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">23</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">24</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">25</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">26</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">27</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">28</h3>
+                                        </div>
+                                        <div class="calendar-book-left__footer">Xóa</div>
+                                    </div>
+                                    <div class="heading__calendar-book-left">
+                                        <div class="calendar-book-left__heading">
+                                            <div class="calendar-book-left__heading-times">
+                                                <h3 class="calendar-book-left__heading-month">Match</h3>
+                                                <h3 class="calendar-book-left__heading-year">2022</h3>
+                                            </div>
+                                            <div class="calendar-book-left__heading-icon"> <icon class="ti-arrow-right calendar-book-left__heading-icon-arrow"></icon> </div>
+                                        </div>
+                                        <div class="calendar-book-left__body">
+                                            <h3 class="calendar-book-left__body-day">Mon</h3>
+                                            <h3 class="calendar-book-left__body-day">Tue</h3>
+                                            <h3 class="calendar-book-left__body-day">Wed</h3>
+                                            <h3 class="calendar-book-left__body-day">Thu</h3>
+                                            <h3 class="calendar-book-left__body-day">Fri</h3>
+                                            <h3 class="calendar-book-left__body-day">Sat</h3>
+                                            <h3 class="calendar-book-left__body-day ">Sun</h3>
+                                        </div>
+                                        <div class="calendar-book-left__body-1">
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--deactive"></h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">1</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">2</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">3</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">4</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">5</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">6</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">7</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">8</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">9</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">10</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">11</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">12</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">13</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">14</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">15</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">16</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">17</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">18</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">19</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">20</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">21</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">22</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">23</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">24</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">25</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">26</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">27</h3>
+                                            <h3 class="calendar-book-left__body-day-1 calendar-book-left__body-day-1--able">28</h3>
+                                        </div>
+                                        <div class="calendar-book-left__footer calendar-book-left__footer--margin-right">Áp dụng</div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><icon class="ti-user calendar-guest-icon"></icon> Số Khách
+                                <div class="heading__guest-number">
+                                    <div class="guest-number">
+                                        <h3 class="guest-number__young">Người lớn</h3>
+                                        <div class="guest-number__quantity">
+                                            <div class="guest-number__quantity-change guest-number__quantity-change--background-color">-</div>
+                                            <div class="guest-number__quantity-number">0</div>
+                                            <div class="guest-number__quantity-change guest-number__quantity-change-1">+</div>
+                                        </div>
+                                    </div>
+                                    <div class="guest-number">
+                                        <div class="">
+                                            <h3 class="guest-number__young">Trẻ em</h3>
+                                            <h4 class="guest-number__young-1">Tuổi từ 2-12</h4>
+                                        </div>
+                                        <div class="guest-number__quantity">
+                                            <div class="guest-number__quantity-change guest-number__quantity-change--background-color">-</div>
+                                            <div class="guest-number__quantity-number">0</div>
+                                            <div class="guest-number__quantity-change guest-number__quantity-change-1">+</div>
+                                        </div>
+                                    </div>
+                                    <div class="guest-number">
+                                        <div>
+                                            <h3 class="guest-number__young">Trẻ sơ sinh</h3>
+                                            <h4 class="guest-number__young-1">Tuổi từ 2-12</h4>
+                                        </div>
+                                        <div class="guest-number__quantity">
+                                            <div class="guest-number__quantity-change guest-number__quantity-change--background-color">-</div>
+                                            <div class="guest-number__quantity-number">0</div>
+                                            <div class="guest-number__quantity-change guest-number__quantity-change-1">+</div>
+                                        </div>
+                                    </div>
+                                    <div class="guest-number__delete-apply">
+                                        <h3 class="guest-number__delete">Xóa</h3>
+                                        <h3 class="guest-number__apply">Áp dụng</h3>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="heading__input-search">
+                            <icon class="ti-search calendar-guest-search-icon"></icon>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="heading__right">
+                    <div class="heading__selection">
+                        <ul class="heading__list">
+                            <li><a href="http://127.0.0.1:5500/html_lean/luxstay-project/index-1.html">Guide</a></li>
+                            <li><a href="">Host</a></li>
+                            <li><a href="">Đăng ký</a></li>
+                            <li><a href="">Đăng nhập</a></li>
+                        </ul>
+                    </div>
+                    <div class="heading__language-units">
+                        <div class="heading__language-icon">
+                            <img src="./assets/images/vi-language.svg" class="heading__language-image" alt="">
+                        </div>
+                        <h3 class="heading__language-unit">VND</h3>
+                        <icon class="heading__language-arrow ti-angle-down"></icon>
+                        <div class="heading__language-units-selection">
+                            <div class="heading__language-units-selection-left">
+                                <div class="language-units-selection-left__language language-units-selection-left__language--margin-bottom">
+                                    <div class="language-units-selection-left__logo">
+                                        <img src="./assets/images/vi-language.svg" alt="" class="language-units-selection-left__img">
+                                    </div>
+                                    <h3 class="language-units-selection-left__select">Tiếng Việt</h3>
+                                    <icon class="ti-check language-units-selection-left__icon-1 language-units-selection-left__icon--active-1"></icon>
+                                </div>
+                                <div class="language-units-selection-left__language language-units-selection-left__language--margin-bottom">
+                                    <div class="language-units-selection-left__logo">
+                                        <img src="./assets/images/en-language.svg" alt="" class="language-units-selection-left__img">
+                                    </div>
+                                    <h3 class="language-units-selection-left__select">Tiếng Anh</h3>
+                                    <icon class="ti-check language-units-selection-left__icon-1"></icon>
+                                </div>
+                                <div class="language-units-selection-left__language">
+                                    <div class="language-units-selection-left__logo">
+                                        <img src="./assets/images/ko-language.svg" alt="" class="language-units-selection-left__img">
+                                    </div>
+                                    <h3 class="language-units-selection-left__select">Tiếng Hàn</h3>
+                                    <icon class="ti-check language-units-selection-left__icon-1"></icon>
+                                </div>
+                            </div>
+
+                            <div class="heading__language-units-selection-right">
+                                <div class="language-units-selection-right__selection-1">
+                                    <h3 class="language-units-selection-right__units">VND</h3>
+                                    <h3 class="language-units-selection-right__units-expantion">Việt Nam Đồng</h3>
+                                    <icon class="ti-check language-units-selection-left__icon language-units-selection-left__icon--active"></icon>
+                                </div>
+                                <div class="language-units-selection-right__selection-1">
+                                    <h3 class="language-units-selection-right__units">USD</h3>
+                                    <h3 class="language-units-selection-right__units-expantion">United States Dollar</h3>
+                                    <icon class="ti-check language-units-selection-left__icon"></icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__contain">
+            <div class="contain">
+                <div class="contain__slide-image" style="background-image: url(./assets/images/slide-2.jpg);"></div>
+                
+                <div class="contain__title-desciption">
+                    <h3 class="contain__title">Chào mừng đến với Luxstay!</h3>
+                    <h4 class="contain__desciption">Đặt chỗ ở, homestay, cho thuê xe, trải nghiệm và nhiều hơn nữa trên Luxstay</h4>
+                    <h4 class="contain__desciption"><a class="contain__desciption-link" href="">Đăng nhập</a> hoặc <a class="contain__desciption-link" href="">Đăng ký</a> để trải nghiệm !</h4>
+
+                <div class="contain__hight-light">
+                    <div class="hight-light__title-description">
+                        <h3 class="hight-light__title">Địa điểm nổi bật</h3>
+                        <h4 class="hight-light__description">Cùng Luxstay bắt đầu chuyến hành trình chinh phục thế giới của bạn</h4>
+                    </div>
+                    <div class="hight-light__column">
+                        <a href="http://127.0.0.1:5500/html_lean/luxstay-project/index-2.html" class="contain__hight-light-link">
+                            <div class="hight-light__container-image" style="background-image: url(./assets/images/hight-light-1.png);">
+                                <div class="hight-light__image">
+                                    <h3 class="hight-light__image-title">Hà Nội</h3>
+                                    <h4 class="hight-light__image-description">2324 Chỗ ở</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="contain__hight-light-link">
+                            <div class="hight-light__container-image" style="background-image: url(./assets/images/hight-light-2.png);">
+                                <div class="hight-light__image">
+                                    <h3 class="hight-light__image-title">TP.Hồ Chí Minh</h3>
+                                    <h4 class="hight-light__image-description">1999 Chỗ ở</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="contain__hight-light-link">
+                            <div class="hight-light__container-image" style="background-image: url(./assets/images/hight-light-3.png);">
+                                <div class="hight-light__image">
+                                    <h3 class="hight-light__image-title">Vũng Tàu</h3>
+                                    <h4 class="hight-light__image-description">336 Chỗ ở</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="contain__hight-light-link">
+                            <div class="hight-light__container-image" style="background-image: url(./assets/images/hight-light-4.png);">
+                                <div class="hight-light__image">
+                                    <h3 class="hight-light__image-title">Đà Lạt</h3>
+                                    <h4 class="hight-light__image-description">942 Chỗ ở</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="contain__hight-light-link">
+                            <div class="hight-light__container-image" style="background-image: url(./assets/images/hight-light-5.png);">
+                                <div class="hight-light__image">
+                                    <h3 class="hight-light__image-title">Đà Nẵng</h3>
+                                    <h4 class="hight-light__image-description">852 Chỗ ở</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contain__copy-right">
+                    <div class="copy-right__title-desciption">
+                        <h3 class="copy-right__title">Ưu đãi độc quyền</h3>
+                        <h4 class="copy-right__desciption">Chỉ có tại Luxstay, hấp dẫn và hữu hạn, book ngay! <a href="" class="copy-right__desciption-link">Xem thêm</a></h4>
+                    </div>
+                    <div class="copy-right__container-image">
+                        <a href="" class="copy-right-link">
+                            <div class="copy-right__image" style="background-image: url(./assets/images/copy-right-1.jpg);"></div>
+                        </a>
+                        <a href="" class="copy-right-link">
+                            <div class="copy-right__image" style="background-image: url(./assets/images/copy-right-2.jpg);"></div>
+                        </a>
+                        <a href="" class="copy-right-link">
+                            <div class="copy-right__image" style="background-image: url(./assets/images/copy-right-3.jpg);"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contain__suggets">
+                    <div class="copy-right__title-desciption">
+                        <h3 class="copy-right__title">Gợi ý từ Luxstay</h3>
+                        <h4 class="copy-right__desciption">Những địa điểm thường đến mà Luxstay gợi ý dành cho bạn</h4>
+                    </div>
+                    <div class="suggets__container-contain">
+                        <div class="suggets__contain">
+                            <a href="" class="suggets__contain-link">
+                                <div class="suggets__image" style="background-image: url(./assets/images/suggets-1.jpg);"></div>
+                                <h3 class="suggets__title">Vi vu ngoại thành Hà Nội</h3>
+                                <h4 class="suggets__description">Trải nghiệm không gian thoáng đãng cho chuyến đi ngay gần Hà Nội</h4>
+                            </a>
+                        </div>
+                        <div class="suggets__contain">
+                            <a href="" class="suggets__contain-link">
+                                <div class="suggets__image" style="background-image: url(./assets/images/suggets-2.jpg);"></div>
+                                <h3 class="suggets__title">Vũng Tàu Biệt thự hồ bơi</h3>
+                                <h4 class="suggets__description">Những căn biệt thự có hồ bơi dành cho kỳ nghỉ của bạn tại Vũng Tàu</h4>
+                            </a>
+                        </div>
+                        <div class="suggets__contain">
+                            <a href="" class="suggets__contain-link">
+                                <div class="suggets__image" style="background-image: url(./assets/images/suggets-3.jpg);"></div>
+                                <h3 class="suggets__title">Hà Nội nội thành lãng mạn</h3>
+                                <h4 class="suggets__description">Không gian lãng mạn dành cho cặp đôi tại trung tâm Hà Nội</h4>
+                            </a>
+                        </div>
+                        <div class="suggets__contain">
+                            <a href="" class="suggets__contain-link">
+                                <div class="suggets__image" style="background-image: url(./assets/images/suggets-4.jpg);"></div>
+                                <h3 class="suggets__title">Sài Gòn cần là có ngay</h3>
+                                <h4 class="suggets__description">Những căn homestay có 01 phòng ngủ tại Sài Gòn có thể đặt nhanh chóng</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contain__discover">
+                    <div class="copy-right__title-desciption">
+                        <h3 class="copy-right__title">Gợi ý khám phá</h3>
+                        <h4 class="copy-right__desciption">Để mỗi chuyến đi là một hành trình truyền cảm hứng, mỗi căn phòng là một khoảng trời an yên</h4>
+                    </div>
+                    <div class="discover__container-contain">
+                        <a href="" class="discover__contain-link">
+                            <div class="discover__contain" style="background-image: url(./assets/images/discover-1.jpg);">
+                                <h4 class="discover__title">THÔNG TIN HOMESTAY</h4>
+                                <h4 class="discover__desciption">5 resort hạng sang ở Việt Nam xuất hiện trên tạp chí du lịch Anh</h4>
+                            </div>
+                        </a>
+                        <a href="" class="discover__contain-link">
+                            <div class="discover__contain" style="background-image: url(./assets/images/discover-2.jpg);">
+                                <h4 class="discover__title">THÔNG TIN HOMESTAY</h4>
+                                <h4 class="discover__desciption">Du lịch Cần Thơ nhất định phải ghé thăm những địa điểm này</h4>
+                            </div>
+                        </a>
+                        <a href="" class="discover__contain-link">
+                            <div class="discover__contain" style="background-image: url(./assets/images/discover-3.jpg);">
+                                <h4 class="discover__title">TP. HỒ CHÍ MINH</h4>
+                                <h4 class="discover__desciption">Tuần lễ “Tôi yêu bánh mì Sài Gòn” chính thức diễn ra từ ngày 24/3</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contain__guiding">
+                    <div class="copy-right__title-desciption">
+                        <h3 class="copy-right__title">Hướng dẫn sử dụng</h3>
+                        <h4 class="copy-right__desciption">Đặt chỗ nhanh, thanh toán đơn giản, sử dụng dễ dàng</h4>
+                    </div>
+                    <div class="guiding__contain">
+                        <a href="">
+                            <div class="guiding__contain-image" style="background-image: url(./assets/images/guide-1.jpg);"></div>
+                        </a>
+                        <a href="">
+                            <div class="guiding__contain-image" style="background-image: url(./assets/images/guide-2.jpg);"></div>
+                        </a>
+                        <a href="">
+                            <div class="guiding__contain-image" style="background-image: url(./assets/images/guide-3.jpg);"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contain__luxstay">
+                    <div class="luxstay__first">
+                        <div class="first__logo">
+                            <svg version="1.1" viewBox="0 0 244 50" class="mb--18 mb--sm-42 app-introduce__logo svg-icon svg-fill"><path pid="0" d="M25.093 0c13.781.06 24.94 11.317 24.882 25.106C49.917 38.894 38.663 50.058 24.88 50 11.1 49.942-.059 38.683.001 24.894.057 11.106 11.31-.058 25.092 0zm11.801 31.9L14.398 16.053c.241-.26.48-.518.74-.777 2.7-2.687 5.971-4.031 9.775-4.015 3.804.015 7.064 1.388 9.741 4.098.238.241.476.482.694.743l-5.951 4.133 2.381 1.688 5.153-3.576v.02L39.33 16.7c-.692-1.203-1.584-2.325-2.616-3.39-3.231-3.292-7.167-4.947-11.788-4.967-4.6-.019-8.53 1.603-11.809 4.867a17.806 17.806 0 00-2.682 3.408l1.429 1.004 23.429 16.51c-.24.26-.48.518-.74.777-2.7 2.687-5.971 4.011-9.775 3.996-3.803-.016-7.063-1.37-9.74-4.08-.258-.26-.496-.521-.734-.782l6.111-4.251-.139-.181-2.183-1.528-5.373 3.735v-.021l-2.377 1.65a17.824 17.824 0 002.654 3.43c3.253 3.291 7.169 4.946 11.769 4.965 4.62.021 8.549-1.602 11.83-4.866 1.06-1.075 1.96-2.21 2.682-3.406l-2.383-1.67zm45.839 2.652l-12.45-.05.096-21.789a.957.957 0 00-.965-.945l-.678-.003a.96.96 0 00-.974.939v.047c-.048.095-.05.236-.05.33l-.098 22.636a1.337 1.337 0 001.351 1.326l13.805.056a.958.958 0 00.973-.938l.003-.662a1.037 1.037 0 00-1.013-.946v-.001zm27.64-22.67l-.871-.003c-.563-.003-1.027.42-1.027.937l-.075 15.878c-.014 3.157-3.252 5.735-7.197 5.72-3.943-.014-7.158-2.618-7.144-5.775l.123-15.5.052-.282a.957.957 0 00-.201-.756 1.128 1.128 0 00-.767-.332l-.87-.004c-.513-.002-.924.326-1.028.75a.857.857 0 00-.156.47l-.073 15.69c-.02 4.616 4.47 8.402 9.95 8.424 5.48.022 10.004-3.73 10.025-8.3l.122-15.5.054-.282a.952.952 0 00-.203-.755c-.152-.189-.458-.379-.714-.38zm48.638 11.226c-3.275-1.249-6.696-2.496-6.688-4.393.01-2.42 2.721-4.401 6.05-4.387 3.331.014 6.025 2.017 6.014 4.436l-.002.38a.96.96 0 00.961.953l.675.003a.96.96 0 00.971-.945v-.38c.009-1.66-.709-3.276-2.006-4.515-1.635-1.618-4.092-2.532-6.65-2.494-4.873-.02-8.698 3.047-8.715 6.938.03 3.748 4.416 5.38 8.656 6.962 3.324 1.247 6.795 2.495 6.785 4.487-.01 2.372-3.155 4.399-6.775 4.385-3.668-.016-6.747-2.07-6.737-4.44l.001-.38a.961.961 0 00-.96-.954l-.676-.002a.96.96 0 00-.97.945v.38c-.018 3.843 4.215 6.991 9.38 7.012 5.163.022 9.423-3.092 9.44-6.934-.033-3.796-4.464-5.427-8.754-7.057zM193.66 11.84l-18.844-.076c-.547-.003-.996.42-.999.94l-.002.66c-.002.52.443.946.99.949l8.103.032-.095 21.802c-.003.52.443.947.99.949l.696.002c.546.003.996-.42 1-.94l.095-21.802 8.055.031c.547.003.996-.42.999-.94l.003-.66c.003-.52-.443-.946-.99-.947zm49.264.515c-.144-.33-.481-.52-.867-.52l-.87-.005a.963.963 0 00-.677.28l-.145.14-.147.142-6.609 9.677-6.72-9.734c-.048-.046-.096-.094-.096-.14l-.143-.143a.97.97 0 00-.675-.285l-.774-.003a1.021 1.021 0 00-.872.515 1.03 1.03 0 00.045.988l7.966 11.576-.049 11.307c.006.527.437.95.964.946l.675.002a.957.957 0 00.97-.937l.049-11.308 7.923-11.509c.194-.329.243-.705.052-.989zm-37.898 12.047l3.75-7.994 3.728 8.023-7.478-.03zm15.615 10.954v-.047l-10.5-22.733c-.15-.425-.549-.71-1.102-.807-.603-.049-1.156.231-1.41.703v.046l-10.705 22.697v.047l-.204.471c-.095.283-.06.595.097.849.188.258.483.416.802.428l.854.004c.453.001.806-.282.958-.657l.05-.141 4.314-9.277 9.95.04 4.28 9.31.049.14c.15.38.5.664.952.667l.854.002c.352.002.654-.139.806-.422.152-.281.254-.563.104-.847l-.149-.473zm-86.008-15.15l.817.003a.963.963 0 00.729-.347l4.755-6.218.412-.478a.763.763 0 00.095-.915c-.135-.306-.453-.482-.816-.483l-.863-.004a.929.929 0 00-.868.608l-4.983 6.522a.94.94 0 00-.096.915c.135.22.453.394.816.397h.002zm-6.998 8.45l-.819-.002a.96.96 0 00-.728.347l-4.755 6.207-.413.48a.77.77 0 00-.094.92c.135.309.452.485.816.488l.864.002a.91.91 0 00.82-.478l5.03-6.601a.949.949 0 00.095-.92 1.027 1.027 0 00-.816-.443zm8.019-.453l.148.14 5.55 7.248c.248.284.246.662.095.99-.15.332-.5.519-.9.517l-.896-.004a1.013 1.013 0 01-.697-.286l-.149-.14c-.03-.002-.042-.02-.059-.044a.212.212 0 00-.04-.052l-5.501-7.151a1.005 1.005 0 01-.15-.237l-11.694-15.39-.446-.521c-.248-.285-.246-.662-.096-.993.15-.33.501-.518.9-.516l.897.004a.99.99 0 01.845.428l.15.19 11.992 15.721s.05.048.05.096z"></path></svg>
+                        </div>
+                        <h3 class="first__title">TÌM KIẾM CHỖ Ở GIÁ TỐT NHẤT</h3>
+                        <h4 class="first__description">Luxstay hiện là nền tảng đặt phòng trực tuyến #1 Việt Nam. Đồng hành cùng chúng tôi, bạn có những chuyến đi mang đầy trải nghiệm. Với Luxstay, việc đặt chỗ ở, biệt thự nghỉ dưỡng, khách sạn, nhà riêng, chung cư... trở nên nhanh chóng, thuận tiện và dễ dàng.</h4>
+                        <div class="first__download-store">
+                            <div class="first__download">
+                                <img src="./assets/images/barcode.png" alt="" class="download__barcode">
+                            </div>
+                            <div class="first__container-appstore">
+                                <div class="first__appstore">
+                                    <a href="">
+                                        <div class="first__appstore-1">
+                                            <img src="./assets/images/apple-store.svg" alt="" class="first_appstore-logo">
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="first__appstore-1">
+                                            <img src="./assets/images/huawei.svg" alt="" class="first_appstore-logo">
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="first__appstore-1">
+                                            <img src="./assets/images/google-play.svg" alt="" class="first_appstore-logo">
+                                        </div>
+                                    </a>
+                                    <div class="first__appstore-1">
+                                        <img src="" alt="" class="first_appstore-logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="luxstay__second">
+                        <img src="./assets/images/luxstay-second.png" alt="" class="luxstay__second-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__footer">
+            <div class="footer-1">
+                <div class="footer-1__row">
+                    <div class="footer-1__column">
+                        <div class="footer-1__logo">
+                            <svg version="1.1" viewBox="0 0 244 50" class="svg-icon svg-fill" style="width: 170px; height: 35px;"><path pid="0" d="M25.093 0c13.781.06 24.94 11.317 24.882 25.106C49.917 38.894 38.663 50.058 24.88 50 11.1 49.942-.059 38.683.001 24.894.057 11.106 11.31-.058 25.092 0zm11.801 31.9L14.398 16.053c.241-.26.48-.518.74-.777 2.7-2.687 5.971-4.031 9.775-4.015 3.804.015 7.064 1.388 9.741 4.098.238.241.476.482.694.743l-5.951 4.133 2.381 1.688 5.153-3.576v.02L39.33 16.7c-.692-1.203-1.584-2.325-2.616-3.39-3.231-3.292-7.167-4.947-11.788-4.967-4.6-.019-8.53 1.603-11.809 4.867a17.806 17.806 0 00-2.682 3.408l1.429 1.004 23.429 16.51c-.24.26-.48.518-.74.777-2.7 2.687-5.971 4.011-9.775 3.996-3.803-.016-7.063-1.37-9.74-4.08-.258-.26-.496-.521-.734-.782l6.111-4.251-.139-.181-2.183-1.528-5.373 3.735v-.021l-2.377 1.65a17.824 17.824 0 002.654 3.43c3.253 3.291 7.169 4.946 11.769 4.965 4.62.021 8.549-1.602 11.83-4.866 1.06-1.075 1.96-2.21 2.682-3.406l-2.383-1.67zm45.839 2.652l-12.45-.05.096-21.789a.957.957 0 00-.965-.945l-.678-.003a.96.96 0 00-.974.939v.047c-.048.095-.05.236-.05.33l-.098 22.636a1.337 1.337 0 001.351 1.326l13.805.056a.958.958 0 00.973-.938l.003-.662a1.037 1.037 0 00-1.013-.946v-.001zm27.64-22.67l-.871-.003c-.563-.003-1.027.42-1.027.937l-.075 15.878c-.014 3.157-3.252 5.735-7.197 5.72-3.943-.014-7.158-2.618-7.144-5.775l.123-15.5.052-.282a.957.957 0 00-.201-.756 1.128 1.128 0 00-.767-.332l-.87-.004c-.513-.002-.924.326-1.028.75a.857.857 0 00-.156.47l-.073 15.69c-.02 4.616 4.47 8.402 9.95 8.424 5.48.022 10.004-3.73 10.025-8.3l.122-15.5.054-.282a.952.952 0 00-.203-.755c-.152-.189-.458-.379-.714-.38zm48.638 11.226c-3.275-1.249-6.696-2.496-6.688-4.393.01-2.42 2.721-4.401 6.05-4.387 3.331.014 6.025 2.017 6.014 4.436l-.002.38a.96.96 0 00.961.953l.675.003a.96.96 0 00.971-.945v-.38c.009-1.66-.709-3.276-2.006-4.515-1.635-1.618-4.092-2.532-6.65-2.494-4.873-.02-8.698 3.047-8.715 6.938.03 3.748 4.416 5.38 8.656 6.962 3.324 1.247 6.795 2.495 6.785 4.487-.01 2.372-3.155 4.399-6.775 4.385-3.668-.016-6.747-2.07-6.737-4.44l.001-.38a.961.961 0 00-.96-.954l-.676-.002a.96.96 0 00-.97.945v.38c-.018 3.843 4.215 6.991 9.38 7.012 5.163.022 9.423-3.092 9.44-6.934-.033-3.796-4.464-5.427-8.754-7.057zM193.66 11.84l-18.844-.076c-.547-.003-.996.42-.999.94l-.002.66c-.002.52.443.946.99.949l8.103.032-.095 21.802c-.003.52.443.947.99.949l.696.002c.546.003.996-.42 1-.94l.095-21.802 8.055.031c.547.003.996-.42.999-.94l.003-.66c.003-.52-.443-.946-.99-.947zm49.264.515c-.144-.33-.481-.52-.867-.52l-.87-.005a.963.963 0 00-.677.28l-.145.14-.147.142-6.609 9.677-6.72-9.734c-.048-.046-.096-.094-.096-.14l-.143-.143a.97.97 0 00-.675-.285l-.774-.003a1.021 1.021 0 00-.872.515 1.03 1.03 0 00.045.988l7.966 11.576-.049 11.307c.006.527.437.95.964.946l.675.002a.957.957 0 00.97-.937l.049-11.308 7.923-11.509c.194-.329.243-.705.052-.989zm-37.898 12.047l3.75-7.994 3.728 8.023-7.478-.03zm15.615 10.954v-.047l-10.5-22.733c-.15-.425-.549-.71-1.102-.807-.603-.049-1.156.231-1.41.703v.046l-10.705 22.697v.047l-.204.471c-.095.283-.06.595.097.849.188.258.483.416.802.428l.854.004c.453.001.806-.282.958-.657l.05-.141 4.314-9.277 9.95.04 4.28 9.31.049.14c.15.38.5.664.952.667l.854.002c.352.002.654-.139.806-.422.152-.281.254-.563.104-.847l-.149-.473zm-86.008-15.15l.817.003a.963.963 0 00.729-.347l4.755-6.218.412-.478a.763.763 0 00.095-.915c-.135-.306-.453-.482-.816-.483l-.863-.004a.929.929 0 00-.868.608l-4.983 6.522a.94.94 0 00-.096.915c.135.22.453.394.816.397h.002zm-6.998 8.45l-.819-.002a.96.96 0 00-.728.347l-4.755 6.207-.413.48a.77.77 0 00-.094.92c.135.309.452.485.816.488l.864.002a.91.91 0 00.82-.478l5.03-6.601a.949.949 0 00.095-.92 1.027 1.027 0 00-.816-.443zm8.019-.453l.148.14 5.55 7.248c.248.284.246.662.095.99-.15.332-.5.519-.9.517l-.896-.004a1.013 1.013 0 01-.697-.286l-.149-.14c-.03-.002-.042-.02-.059-.044a.212.212 0 00-.04-.052l-5.501-7.151a1.005 1.005 0 01-.15-.237l-11.694-15.39-.446-.521c-.248-.285-.246-.662-.096-.993.15-.33.501-.518.9-.516l.897.004a.99.99 0 01.845.428l.15.19 11.992 15.721s.05.048.05.096z"></path></svg>
+                        </div>
+                        <div class="footer-1__message">
+                            <svg version="1.1" viewBox="0 0 40 40" class="svg-icon svg-fill" style="width: 40px; height: 40px;"><defs><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="svgicon_whatsapp_b"><stop stop-color="#4B4B4B" offset="0%"></stop><stop offset="100%"></stop></linearGradient><linearGradient x1="0%" y1="25.77%" x2="100%" y2="74.23%" id="svgicon_whatsapp_e"><stop stop-color="#C77D0E" offset="0%"></stop><stop stop-color="#F98713" offset="100%"></stop></linearGradient><linearGradient x1="0%" y1="24.995%" x2="100%" y2="75.005%" id="svgicon_whatsapp_f"><stop stop-color="#F98713" offset="0%"></stop><stop stop-color="#FBAC36" offset="100%"></stop></linearGradient><path pid="0" d="M9.083 17.431L3.52 20.16H1.76l1.4-5.483C1.182 13.132 0 11.172 0 9.04 0 4.047 6.483 0 14.48 0c7.997 0 14.48 4.047 14.48 9.04 0 4.993-6.483 9.04-14.48 9.04-1.908 0-3.73-.23-5.397-.649z" id="svgicon_whatsapp_a"></path><path pid="1" d="M9.083 17.431L3.52 20.16H1.76l1.4-5.483C1.182 13.132 0 11.172 0 9.04 0 4.047 6.483 0 14.48 0c7.997 0 14.48 4.047 14.48 9.04 0 4.993-6.483 9.04-14.48 9.04-1.908 0-3.73-.23-5.397-.649z" id="svgicon_whatsapp_d"></path></defs><g fill="none" fill-rule="evenodd"><circle pid="2" fill-opacity=".03" fill="#000" cx="20" cy="20" r="20"></circle><ellipse pid="3" fill="#E4E4E4" cx="20" cy="36.64" rx="20" ry="1.28"></ellipse><g transform="translate(0 4)"><mask id="svgicon_whatsapp_c" fill="#fff"><use xlink:href="#svgicon_whatsapp_a"></use></mask><use fill="url(#svgicon_whatsapp_b)" xlink:href="#svgicon_whatsapp_a"></use><path pid="4" d="M10.843 17.431L5.28 20.16H3.52l1.4-5.483c-1.978-1.545-3.16-3.505-3.16-5.637C1.76 4.047 8.243 0 16.24 0c7.997 0 14.48 4.047 14.48 9.04 0 4.993-6.483 9.04-14.48 9.04-1.908 0-3.73-.23-5.397-.649z" fill="#414141" mask="url(#svgicon_whatsapp_c)"></path><circle pid="5" fill="#FFF" opacity=".2" mask="url(#svgicon_whatsapp_c)" cx="9.6" cy="8.48" r="1.6"></circle><circle pid="6" fill="#FFF" opacity=".2" mask="url(#svgicon_whatsapp_c)" cx="14.72" cy="8.48" r="1.6"></circle><circle pid="7" fill="#FFF" opacity=".2" mask="url(#svgicon_whatsapp_c)" cx="19.84" cy="8.48" r="1.6"></circle></g><g transform="matrix(-1 0 0 1 40 16)"><mask id="svgicon_whatsapp_g" fill="#fff"><use xlink:href="#svgicon_whatsapp_d"></use></mask><use fill="url(#svgicon_whatsapp_e)" xlink:href="#svgicon_whatsapp_d"></use><path pid="8" d="M7.808 17.112L1.6 20.16H-.16l1.759-6.03C-.21 12.622-1.28 10.75-1.28 8.72c0-4.993 6.483-9.04 14.48-9.04 7.997 0 14.48 4.047 14.48 9.04 0 4.993-6.483 9.04-14.48 9.04-1.906 0-3.725-.23-5.392-.648z" fill="url(#svgicon_whatsapp_f)" mask="url(#svgicon_whatsapp_g)"></path><circle pid="9" fill="#CF3B00" opacity=".413" mask="url(#svgicon_whatsapp_g)" cx="8.64" cy="8.48" r="1.6"></circle><circle pid="10" fill="#CF3B00" opacity=".413" mask="url(#svgicon_whatsapp_g)" cx="13.76" cy="8.48" r="1.6"></circle><circle pid="11" fill="#CF3B00" opacity=".413" mask="url(#svgicon_whatsapp_g)" cx="18.88" cy="8.48" r="1.6"></circle></g></g></svg>
+                            <div class="footer-1__title">
+                                <a href="">
+                                    <span class="footer-1__messenger">Messenger</span>
+                                </a>
+                                <a href="">
+                                    <span class="footer-1__link">http://m.me/luxstay</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer-1__message">
+                                <svg version="1.1" viewBox="0 0 40 40" class="svg-icon svg-fill" style="width: 40px; height: 40px;"><defs><linearGradient x1="0%" y1="25.77%" x2="100%" y2="74.23%" id="svgicon_call-center_b"><stop stop-color="#C77D0E" offset="0%"></stop><stop stop-color="#F98713" offset="100%"></stop></linearGradient><linearGradient x1="0%" y1="25.77%" x2="100%" y2="74.23%" id="svgicon_call-center_c"><stop stop-color="#F98713" offset="0%"></stop><stop stop-color="#FBAC36" offset="100%"></stop></linearGradient><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="svgicon_call-center_f"><stop stop-color="#4B4B4B" offset="0%"></stop><stop offset="100%"></stop></linearGradient><path pid="0" d="M6.83 13.108L2.647 15.16H1.323l1.053-4.123C.89 9.875 0 8.401 0 6.797 0 3.045 4.875 0 10.889 0c6.013 0 10.888 3.044 10.888 6.798s-4.875 6.798-10.888 6.798c-1.435 0-2.805-.173-4.059-.488z" id="svgicon_call-center_a"></path><path pid="1" d="M0 6.084c0-3 2.176-5.168 3.71-5.832C5.241-.41 9.103.39 9.53.866c.427.477 1.048 5.218.852 6.143-.11.525-.774 1.077-1.988 1.656a1 1 0 00-.55 1.097 12.858 12.858 0 001.443 3.897c.813 1.424 1.954 2.861 3.422 4.31l.632-.587a4.094 4.094 0 012.789-1.097c1.037 0 2.04.378 2.819 1.064l3.157 2.778a1 1 0 01.282 1.085c-.49 1.386-1.315 2.368-2.473 2.947-1.333.667-3.068.937-5.206.81-3 0-8.105-3.52-11-8.217C.814 12.054 0 9.084 0 6.084z" id="svgicon_call-center_e"></path></defs><g fill="none" fill-rule="evenodd"><circle pid="2" fill-opacity=".03" fill="#000" cx="20" cy="20" r="20"></circle><ellipse pid="3" fill="#E4E4E4" cx="20" cy="36.64" rx="20" ry="1.28"></ellipse><g transform="translate(15.71 7)"><mask id="svgicon_call-center_d" fill="#fff"><use xlink:href="#svgicon_call-center_a"></use></mask><use fill="url(#svgicon_call-center_b)" xlink:href="#svgicon_call-center_a"></use><path pid="4" d="M8.154 13.108L3.97 15.16H2.647L3.7 11.037c-1.487-1.162-2.377-2.636-2.377-4.24C1.323 3.045 6.2 0 12.213 0 18.225 0 23.1 3.044 23.1 6.798s-4.875 6.798-10.889 6.798c-1.434 0-2.804-.173-4.058-.488z" fill="url(#svgicon_call-center_c)" mask="url(#svgicon_call-center_d)"></path><circle pid="5" fill="#CF3B00" opacity=".413" mask="url(#svgicon_call-center_d)" cx="7.219" cy="6.377" r="1.203"></circle><circle pid="6" fill="#CF3B00" opacity=".413" mask="url(#svgicon_call-center_d)" cx="11.069" cy="6.377" r="1.203"></circle><circle pid="7" fill="#CF3B00" opacity=".413" mask="url(#svgicon_call-center_d)" cx="14.919" cy="6.377" r="1.203"></circle></g><g transform="translate(2 11.03)"><mask id="svgicon_call-center_g" fill="#fff"><use xlink:href="#svgicon_call-center_e"></use></mask><use fill="url(#svgicon_call-center_f)" xlink:href="#svgicon_call-center_e"></use><path pid="8" d="M2.71 6.084c0-3 2.175-5.168 3.708-5.832C7.951-.41 11.813.39 12.24.866c.426.477 1.047 5.218.852 6.143-.112.525-.775 1.077-1.99 1.656a1 1 0 00-.55 1.097 12.858 12.858 0 001.444 3.897c.813 1.424 1.954 2.861 3.422 4.31l.632-.587a4.094 4.094 0 012.789-1.097c1.038 0 2.04.378 2.819 1.064l3.157 2.778a1 1 0 01.282 1.085c-.49 1.386-1.315 2.368-2.472 2.947-1.334.667-3.07.937-5.207.81-3 0-8.105-3.52-11-8.217C3.523 12.054 2.71 9.084 2.71 6.084z" fill="#414141" mask="url(#svgicon_call-center_g)"></path></g></g></svg>
+                            <div class="footer-1__title">
+                                <a href="" class="">
+                                    <span class="footer-1__messenger">Call center</span>
+                                </a>
+                                <a href="">
+                                    <span class="footer-1__link">18006586 (Việt Nam)</span>
+                                </a>
+                                <a href="">
+                                    <span class="footer-1__link">0889866666</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-1__column">
+                        <h3 class="footer-1__list-heading">TOP HOMESTAY ĐƯỢC YÊU THÍCH</h3>
+                        <ul class="footer-1__list-item">
+                            <li><a href="">Homestay Đà Lạt</a></li>
+                            <li><a href="">Homestay Hà Nội</a></li>
+                            <li><a href="">Homestay Hồ Chí Mình</a></li>
+                            <li><a href="">Homestay Sapa</a></li>
+                            <li><a href="">Homestay Vũng Tàu</a></li>
+                            <li><a href="">Homestay Tam Đảo</a></li>
+                            <li><a href="">Homestay Hội An</a></li>
+                            <li><a href="">Homestay Đà Nẵng</a></li>
+                            <li><a href="">Homestay Hạ Long</a></li>
+                            <li><a href="">Homestay Phan Thiết</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-1__column">
+                        <h3 class="footer-1__list-heading">KHÔNG GIAN ƯA THÍCH</h3>
+                        <ul class="footer-1__list-item">
+                            <li><a href="">Căn hộ dịch vụ</a></li>
+                            <li><a href="">Biệt thự</a></li>
+                            <li><a href="">Nhà riêng</a></li>
+                            <li><a href="">Studio</a></li>
+                            <li><a href="">Travel Guide</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-1__column">
+                        <h3 class="footer-1__list-heading">VỀ CHÚNG TÔI</h3>
+                        <ul class="footer-1__list-item">
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Điều khoản hoạt động</a></li>
+                            <li><a href="">1800 6586</a></li>
+                            <li><a href="">+84 8898 66666</a></li>
+                            <li><a href="">info@luxstay.com</a></li>
+                            <li><a href="">Trang thông tin dành cho chủ nhà</a></li>
+                            <li><a href="">Cơ hội nghề nghiệp</a></li>
+                            <li><a href="">Tạp chí du lịch</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-1__column">
+                        <h3 class="footer-1__list-heading">TẢI ỨNG DỤNG LUXSTAY</h3>
+                        <div class="footer-1__download-appstore">
+                            <div class="footer-1__download">
+                                <img src="./assets/images/barcode.png" alt="" class="footer-1__download-logo">
+                            </div>
+                            <div class="footer-1__container-appstore">
+                                <div class="footer-1__container-appstore">
+                                    <a href="" class="">
+                                        <img src="./assets/images/apple-store.svg" alt="" class="footer-1__appstore-apple">
+                                    </a>
+                                </div>
+                                <div class="footer-1__container-appstore">
+                                    <a href="" class="">
+                                        <img src="./assets/images/huawei.svg" alt="" class="footer-1__appstore-apple">
+                                    </a>
+                                </div>
+                                <div class="footer-1__container-appstore">
+                                    <a href="" class="">
+                                        <img src="./assets/images/google-play.svg" alt="" class="footer-1__appstore-apple">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-2">
+                <div class="footer-2__purchase">
+                    <h3 class="purchase__title">SECURE YOUR TRANSACTION</h3>
+                    <div class="purchase__logo">
+                        <div class="purchase__image" style="background-image: url(./assets/images/visa.svg);"></div>
+                        <div class="purchase__image" style="background-image: url(./assets/images/mastercard.svg);"></div>
+                        <div class="purchase__image" style="background-image: url(./assets/images/maestro.svg);"></div>
+                    </div>
+                </div>
+                <div class="footer-2__more-information">
+                    <div class="more-information__certification">
+                        <h3 class="certification__title">CERTIFICATION</h3>
+                        <div class="certification__logo">
+                            <a href="">
+                                <div class="certification__image" style="background-image: url(./assets/images/certification-1.png);"></div>
+                            </a>
+                            <a href="">
+                                <div class="certification__image" style="background-image: url(./assets/images/certification-2.png);"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="more-information__follow">
+                        <h3 class="certification__title">FOLLOW US</h3>
+                        <div class="follow__logo">
+                            <div class="follow__icon">
+                                <a href="">
+                                    <icon class="ti-instagram follow__icon-1"></icon>
+                                </a>
+                            </div>
+                            <div class="follow__icon">
+                                <a href="">
+                                    <icon class="ti-youtube follow__icon-1"></icon>
+                                </a>
+                            </div>
+                            <div class="follow__icon follow__icon-1">
+                                <a href="">
+                                    <icon class="ti-facebook"></icon>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-3">
+                <h3 class="footer-3__title">© 2022 Luxstay. Bản quyền thuộc về Công ty TNHH Luxstay Việt Nam - MSDN: 0108308449. Mọi hành vi sao chép đều là phạm pháp nếu không có sự cho phép bằng văn bản của chúng tôi.</h3>
+                <h3 class="footer-3__title-2">Tầng 21 tòa nhà Capital Tower số 109 phố Trần Hưng Đạo, phường Cửa Nam, quận Hoàn Kiếm, Hà Nội. Email: info@luxstay.com, Số điện thoại: 18006586.</h3>
+                <h3 class="footer-3__title-3">Số Giấy chứng nhận đăng ký doanh nghiệp: 0108308449, ngày cấp: 06/06/2018, nơi cấp: Sở Kế hoạch và Đầu tư TP Hà Nội</h3>
+            </div>
+        </div>
+    </div>
+    <ul id="test-javascript"></ul>
+    <ul id="test-javascript-1"></ul>
+    <script>
+
+        //Cách 1:
+        var $ = document.querySelector.bind(document);
+        var $$ = document.querySelectorAll.bind(document);
+        var webSite = $('.app')
+        var ulElement = $('#heading__calendar-guest')
+        var liElement = $$('#heading__calendar-guest li')
+        var divElement = $('.heading__language-units')
+        var unitSelects = $$('.language-units-selection-right__selection-1')
+        var languageSelects = $$('.language-units-selection-left__language')
+        webSite.onclick = function(){
+            liElement[1].children[1].classList.remove('heading__guest-number--display')
+            liElement[0].children[1].classList.remove('heading__calendar-book--display')
+            divElement.children[3].classList.remove('heading__language-units-selection--display')
+        }
+        divElement.onclick = function(e){
+            e.stopPropagation()
+        }
+        liElement[0].onclick = function(){
+            liElement[0].children[1].classList.toggle('heading__calendar-book--display')
+            liElement[1].children[1].classList.remove('heading__guest-number--display')
+            divElement.children[3].classList.remove('heading__language-units-selection--display')
+        }
+        liElement[1].onclick = function(){
+            liElement[1].children[1].classList.toggle('heading__guest-number--display')
+            liElement[0].children[1].classList.remove('heading__calendar-book--display')
+            divElement.children[3].classList.remove('heading__language-units-selection--display')
+        }
+        divElement.addEventListener('click', displayDiv)
+        function displayDiv(){
+            divElement.children[3].classList.toggle('heading__language-units-selection--display')
+            liElement[0].children[1].classList.remove('heading__calendar-book--display')
+            liElement[1].children[1].classList.remove('heading__guest-number--display')
+        }
+        unitSelects.forEach((unit, index)=>{
+            unit.onclick = function(){
+                $('.language-units-selection-left__icon.language-units-selection-left__icon--active')
+                .classList.remove('language-units-selection-left__icon--active')
+
+                unit.children[2].classList.add('language-units-selection-left__icon--active')
+            }
+        })
+        languageSelects.forEach((language, index)=>{
+            language.onclick = function(){
+                $('.language-units-selection-left__icon-1.language-units-selection-left__icon--active-1')
+                .classList.remove('language-units-selection-left__icon--active-1')
+                language.children[2].classList.add('language-units-selection-left__icon--active-1')
+            }
+        })
+        ulElement.onclick = function(e){
+            e.stopPropagation()
+        }
+        liElement[0].children[1].onclick = function(e){
+            e.stopPropagation()
+        }
+        liElement[1].children[1].onclick = function(e){
+            e.stopPropagation()
+        }
+        divElement.children[3].onclick = function(e){
+            e.stopPropagation()
+        }
+
+
+
+
+
+
+
+
+    //Cách 2:
+//----------------------------------------------------------------------------------
+        // var appElement = document.querySelector('.app')
+        // var ulIdElement = document.getElementById('heading__calendar-guest')
+        // var divElement = document.querySelector('.heading__language-units')
+        // var firstWindow = document.querySelector('.heading__calendar-book')
+        // var secondWindow = document.querySelector('.heading__guest-number')
+        // var threeWindow = document.querySelector('.heading__language-units-selection')
+        // var unitElement1 = document.querySelector('.language-units-selection-right__selection-1')
+        // var unitElement2 = document.querySelector('.language-units-selection-right__selection-2')
+        // var languageElement = document.querySelector('.heading__language-units-selection-left')
+
+        // appElement.addEventListener('click', hideAll)
+        // ulIdElement.firstElementChild.addEventListener('click', display)
+        // ulIdElement.lastElementChild.addEventListener('click', displayOne)
+        // divElement.addEventListener('click', displayTwo)
+        // unitElement1.addEventListener('click', changeUnits1)
+        // unitElement2.addEventListener('click', changeUnits2)
+        // languageElement.children[0].addEventListener('click', changelanguage)
+        // languageElement.children[1].addEventListener('click', changelanguage1)
+        // languageElement.children[2].addEventListener('click', changelanguage2)
+
+        // function changelanguage (){
+        //     languageElement.children[0].lastElementChild.classList.add('language-units-selection-left__icon--active')
+        //     languageElement.children[1].lastElementChild.classList.add('language-units-selection-left__icon--deactive')
+        //     languageElement.children[2].lastElementChild.classList.add('language-units-selection-left__icon--deactive')
+        //     languageElement.children[1].lastElementChild.classList.remove('language-units-selection-left__icon--active')
+        //     languageElement.children[2].lastElementChild.classList.remove('language-units-selection-left__icon--active')
+        // }
+        // function changelanguage1 (){
+        //     languageElement.children[1].lastElementChild.classList.add('language-units-selection-left__icon--active')
+        //     languageElement.children[0].lastElementChild.classList.add('language-units-selection-left__icon--deactive')
+        //     languageElement.children[2].lastElementChild.classList.add('language-units-selection-left__icon--deactive')
+        //     languageElement.children[0].lastElementChild.classList.remove('language-units-selection-left__icon--active')
+        //     languageElement.children[2].lastElementChild.classList.remove('language-units-selection-left__icon--active')
+        // }
+        // function changelanguage2 (){
+        //     languageElement.children[0].lastElementChild.classList.add('language-units-selection-left__icon--deactive')
+        //     languageElement.children[1].lastElementChild.classList.add('language-units-selection-left__icon--deactive')
+        //     languageElement.children[2].lastElementChild.classList.add('language-units-selection-left__icon--active')
+        //     languageElement.children[0].lastElementChild.classList.remove('language-units-selection-left__icon--active')
+        //     languageElement.children[1].lastElementChild.classList.remove('language-units-selection-left__icon--active')
+        // }
+        // function changeUnits1(){
+        //     unitElement1.lastElementChild.classList.add('language-units-selection-left__icon--active')
+        //     unitElement2.lastElementChild.classList.add('language-units-selection-left__icon--deactive')
+        //     unitElement2.lastElementChild.classList.remove('language-units-selection-left__icon--active')
+        // }  
+        // function changeUnits2(){
+        //     unitElement2.lastElementChild.classList.add('language-units-selection-left__icon--active')
+        //     unitElement1.lastElementChild.classList.add('language-units-selection-left__icon--deactive')
+        //     unitElement1.lastElementChild.classList.remove('language-units-selection-left__icon--active')
+        // }
+        // function hideAll(){
+        //     firstWindow.classList.remove('heading__calendar-book--display')
+        //     secondWindow.classList.remove('heading__guest-number--display')
+        //     threeWindow.classList.remove('heading__language-units-selection--display')
+        // }
+        // function display(){
+        //     firstWindow.classList.toggle('heading__calendar-book--display')
+        //     secondWindow.classList.remove('heading__guest-number--display')
+        //     threeWindow.classList.remove('heading__language-units-selection--display')
+        // }
+        // function displayOne(){
+        //     secondWindow.classList.toggle('heading__guest-number--display')
+        //     firstWindow.classList.remove('heading__calendar-book--display')
+        //     threeWindow.classList.remove('heading__language-units-selection--display')
+        // }
+        // function displayTwo(){
+        //     threeWindow.classList.toggle('heading__language-units-selection--display')
+        //     firstWindow.classList.remove('heading__calendar-book--display')
+        //     secondWindow.classList.remove('heading__guest-number--display')
+        // }
+        
+        // threeWindow.onclick = function(e){
+        //     e.stopPropagation()
+        // }
+        // divElement.onclick = function(e){
+        //     e.stopPropagation()
+        // }
+        // ulIdElement.onclick = function(e){
+        //     e.stopPropagation()
+        // }
+        // firstWindow.onclick = function(e){
+        //     e.stopPropagation()
+        // }
+        // secondWindow.onclick = function(e){
+        //     e.stopPropagation()
+        // }
+        
+    </script>
+    <script type="module" src="./basic.js"></script>
+    <script src="./review.js"></script>
+
+</body>
+</html>
